@@ -25,9 +25,9 @@ Seluruh kode di dalam notebook dikerjakan bersama oleh keempat anggota dengan po
 
 | No | NIM | Nama | Kelas | Kontribusi |
 |---|---|---|---|---|
-| 1 | 123240184 | Mirza Aditya M | IF-D | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan B (Bab 1) dan (Bab 7), yaitu rumusan masalah, tujuan, metode, metrik, serta deskripsi dan sumber dataset. |
-| 2 | 123240194 | Dhimas Naufal F | IF-B | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan  (Bab 5) dan Cleaning serta  (Bab 4), meliputi statistik deskriptif, visualisasi, insight, missing value, nilai negatif, dan outlier. |
-| 3 | 123240207 | Akbar Faqih A | IF-G | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan (Bab 4) dan Evaluasi (Bab 2), meliputi pembagian data, Random Forest, model pembanding, metrik, confusion matrix, dan feature importance. |
+| 1 | 123240184 | Mirza Aditya M | IF-D | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan B (Bab 1) dan (Bab 7)|
+| 2 | 123240194 | Dhimas Naufal F | IF-B | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan  (Bab 5) dan Cleaning serta  (Bab 3) |
+| 3 | 123240207 | Akbar Faqih A | IF-G | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan (Bab 4) dan Evaluasi (Bab 2) |
 | 4 | 123240221 | Adiel Khairullah | IF-E | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan (Bab 6) dan README ini, serta mengoordinasikan peninjauan ulang keselarasan seluruh isi notebook. |
 
 Keempat anggota bersama-sama memeriksa keselarasan antara rumusan masalah, hasil eksperimen, dan kesimpulan yang ditulis di notebook.
