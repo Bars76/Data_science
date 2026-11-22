@@ -8,7 +8,7 @@ Data Science Teori IF-E
   3. 123240207 - Akbar Faqih A    (IF-G)
   4. 123240221 - Adiel Khairullah (IF-E)
 
-README — Proyek Akhir Praktikum Data Science
+# README — Proyek Akhir Praktikum Data Science
 
 ## 1. Ringkasan Proyek
 
@@ -18,18 +18,17 @@ Proyek ini mengklasifikasikan performa penjualan produk fashion ke dalam tiga ke
 
 Dataset awal berisi 100.000 baris dan 20 kolom. Setelah melalui proses cleaning (penghapusan 1.368 baris dengan nilai negatif, imputasi median, dan penghapusan outlier dengan aturan IQR) serta pemilihan 17 dari 19 prediktor, model dilatih dengan 100 pohon, `max_depth=5`, dan `criterion='gini'`.
 
-Hasil evaluasi menunjukkan accuracy **0,3389** dan macro F1 **0,3145**. Model pembanding `DummyClassifier` memperoleh accuracy **0,3354** dan macro F1 **0,1674**. Karena selisih accuracy hanya **0,0035**, model tidak dapat dikatakan lebih baik daripada menebak kelas mayoritas. EDA juga menunjukkan rata-rata fitur di ketiga kelas hampir identik dan korelasi fitur dengan target mendekati nol. Dengan demikian, label yang tersedia belum menunjukkan hubungan yang jelas dengan karakteristik produk, sehingga model **belum layak** dijadikan dasar pengambilan keputusan bisnis retail. Sesuai ketentuan proyek, penilaian berfokus pada alasan dan proses pengerjaan, bukan pada besarnya akurasi.
-
+Hasil evaluasi model tercatat dengan accuracy **0,3389** dan macro F1 **0,3145**. Sebagai pembanding, `DummyClassifier` memperoleh accuracy **0,3354** dan macro F1 **0,1674**. Kedua angka ini dibaca bersama hasil EDA yang menunjukkan sebaran fitur di ketiga kelas relatif mirip. 
 ## 2. Informasi Anggota dan Kontribusi
 
 Seluruh kode di dalam notebook dikerjakan bersama oleh keempat anggota dengan porsi yang sama, mulai dari eksplorasi data, cleaning dan preprocessing, pemodelan, sampai evaluasi. Pembagian pada tabel berikut hanya menunjukkan fokus penulisan penjelasan, bukan pembatasan dalam mengerjakan kode.
 
 | No | NIM | Nama | Kelas | Kontribusi |
 |---|---|---|---|---|
-| 1 | 123240184 | Mirza Aditya M | IF-D | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan Business Understanding (Bab 1) dan Data Gathering (Bab 2), yaitu rumusan masalah, tujuan, metode, metrik, serta deskripsi dan sumber dataset. |
-| 2 | 123240194 | Dhimas Naufal F | IF-B | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan Exploratory Data Analysis (Bab 3) dan Cleaning serta Preprocessing (Bab 4), meliputi statistik deskriptif, visualisasi, insight, missing value, nilai negatif, dan outlier. |
-| 3 | 123240207 | Akbar Faqih A | IF-G | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan Modelling (Bab 5) dan Evaluasi (Bab 6), meliputi pembagian data, Random Forest, model pembanding, metrik, confusion matrix, dan feature importance. |
-| 4 | 123240221 | Adiel Khairullah | IF-E | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan Konklusi (Bab 7) dan README ini, serta mengoordinasikan peninjauan ulang keselarasan seluruh isi notebook. |
+| 1 | 123240184 | Mirza Aditya M | IF-D | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan B (Bab 1) dan (Bab 6), yaitu rumusan masalah, tujuan, metode, metrik, serta deskripsi dan sumber dataset. |
+| 2 | 123240194 | Dhimas Naufal F | IF-B | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan  (Bab 5) dan Cleaning serta  (Bab 4), meliputi statistik deskriptif, visualisasi, insight, missing value, nilai negatif, dan outlier. |
+| 3 | 123240207 | Akbar Faqih A | IF-G | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan (Bab 4) dan Evaluasi (Bab 2), meliputi pembagian data, Random Forest, model pembanding, metrik, confusion matrix, dan feature importance. |
+| 4 | 123240221 | Adiel Khairullah | IF-E | Ikut menulis dan menjalankan seluruh kode; fokus penjelasan (Bab 7) dan README ini, serta mengoordinasikan peninjauan ulang keselarasan seluruh isi notebook. |
 
 Keempat anggota bersama-sama memeriksa keselarasan antara rumusan masalah, hasil eksperimen, dan kesimpulan yang ditulis di notebook.
 
